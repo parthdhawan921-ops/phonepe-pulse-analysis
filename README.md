@@ -8,7 +8,9 @@
 
 An exploratory analysis of **PhonePe Pulse**, the public UPI payments data from one of India's largest payment apps. The project uses five related Excel sheets with state, district, transaction-type, device and census data from **2018 Q1 to 2021 Q2**. They are loaded, checked, merged and analysed in **pandas** to answer **34 questions**: who pays digitally, how much, on what, and where adoption still lags.
 
-**Headline:** 20.5 billion transactions worth ₹35.6 lakh crore. Quarterly volume grew 29× from 2018 Q1 to 2021 Q2, and user adoption drives volume (r = 0.80) far more than population density (0.31).
+- **What I did:** Combined 5 PhonePe Pulse tables (36 states, 723 districts, 2018 to 2021) to see where UPI is used and what drives it.
+- **What I found:** **UPI transactions grew 29× in three years.** States with more registered users make far more payments; how crowded a state is barely matters.
+- **Why it matters:** Growth follows sign-ups, not crowded cities, so low-adoption states are the opportunity.
 
 **[📓 Open the notebook](phonepe_pulse_case_study.ipynb)** · **[Interactive case file](https://parthdhawan921-ops.github.io/Parth_Personal/#phonepe)**
 
